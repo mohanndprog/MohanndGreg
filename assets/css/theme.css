@@ -40,6 +40,7 @@
         position: fixed;
     }
 }
+
 .psHeader{
     min-height: 130px;
     background: #292633;
@@ -2006,4 +2007,10 @@ body.SideBarOpend{
 }
 #backtotop:hover{
     background: #7635f5;
+}
+@media (min-width: 1200px){
+    .psPhoto img{
+        width: 321px;
+        height: 490px;
+    }
 }
