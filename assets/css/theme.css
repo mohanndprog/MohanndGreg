@@ -90,6 +90,16 @@
     overflow: hidden;
 }
 .psPhoto img{
+    width: 321px;
+    height: 490px;
+}
+@media (max-width: 1200px){
+    .psPhoto img{
+        width: 100%;
+        height: 490px;
+    }
+}
+.psPhoto img{
     width: 100%;
     height: auto;
 }
@@ -2010,7 +2020,7 @@ body.SideBarOpend{
 }
 @media (min-width: 1200px){
     .psPhoto img{
-        width: 321px;
-        height: 490px;
+        width: 321px !important;
+        height: 490px !important;
     }
 }
